@@ -176,7 +176,7 @@ spec:
  
  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
- Remmove only first 3 lines using ctrl+k from nano editor👀👀
+ Remmove all lines using ctrl+k from nano editor👀👀
  
 admissionWhitelistPatterns:
 - namePattern: docker.io/library/wordpress:latest
