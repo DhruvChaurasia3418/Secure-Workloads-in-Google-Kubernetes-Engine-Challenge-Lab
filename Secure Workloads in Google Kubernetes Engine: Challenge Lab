@@ -178,7 +178,7 @@ spec:
  
  Remmove only first 3 lines using ctrl+k from nano editor👀👀
  
- admissionWhitelistPatterns:
+admissionWhitelistPatterns:
 - namePattern: docker.io/library/wordpress:latest
 - namePattern: us.gcr.io/k8s-artifacts-prod/ingress-nginx/*
 - namePattern: gcr.io/cloudsql-docker/*
@@ -187,6 +187,7 @@ defaultAdmissionRule:
  enforcementMode: ENFORCED_BLOCK_AND_AUDIT_LOG
  evaluationMode: ALWAYS_DENY
 globalPolicyEvaluationMode: ENABLE
+name: projects/<Project_ID>/policy
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
