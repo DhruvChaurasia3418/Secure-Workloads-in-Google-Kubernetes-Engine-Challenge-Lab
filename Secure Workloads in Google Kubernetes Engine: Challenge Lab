@@ -152,6 +152,8 @@ spec:
  
  kubectl apply -f network-policy.yaml
  
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
  gcloud services enable \
  container.googleapis.com \
  containeranalysis.googleapis.com \
